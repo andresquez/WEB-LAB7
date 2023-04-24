@@ -26,14 +26,6 @@ module.exports = {
       "warn",
       {"code":120}
     ],
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        "js": "never",
-        "jsx": "never"
-      }
-    ],
     "prettier/prettier": ["warn", {"semi":false, "tabWidth": 4}]
   },
 };
